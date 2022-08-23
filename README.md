@@ -1,4 +1,4 @@
-# Discock-AutoBump
+# Discock AutoBump
 An auto-bumper for https://discock.app
 
 I am not responsible for your actions, keep the timeout at 1800 (30m) to prevent being banned.
