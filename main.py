@@ -12,6 +12,9 @@ password = ""
 # https://discock.app/d/(post id)-(title)
 postid = ""
 
+# message content
+messagecontent = "auto bumped!"
+
 
 def login(email, pswd, proxied, session, csrf):
     hdrs = {
@@ -99,7 +102,7 @@ def bump(post_id, remember, session, proxied, csrf):
         "data": {
             "type": "posts",
             "attributes": {
-                "content": "auto-bump!"
+                "content": messagecontent
             },
             "relationships": {
                 "discussion": {
