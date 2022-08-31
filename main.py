@@ -45,7 +45,6 @@ def login(email, pswd, proxied, session, csrf):
             "__proxied": proxied
         }
     )
-    open("test", "w").write(r.text)
 
     print(r.status_code)
     if r.status_code == 200:
